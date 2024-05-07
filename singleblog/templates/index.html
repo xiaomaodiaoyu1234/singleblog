@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{#<a href="/index">进入主页</a>#}
+{#<a href="{% url 'index' %}">index</a>#}
+{#<a href="{% url '另一个页面' %}">detail</a>#}
+<h1>这是一本小说的介绍</h1>
+<p>标题：{{ pl.title }}</p>
+{#{% for i in pl %}#}
+{#    <p>#}
+{#        {{ i.title }}#}
+{#        {{ i.desc }}#}
+{#        {{ i.content }}#}
+{#    </p>#}
+{#{% endfor %}#}
+</body>
+</html>
