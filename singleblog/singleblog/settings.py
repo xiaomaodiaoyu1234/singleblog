@@ -106,3 +106,4 @@ STATIC_URL = '/static/'
 #羊驼老师修改的代码
 #第二天修改的代码
 #羊驼老师第三天天修改的代码
+#yangttuodisitianxiugai1daima
